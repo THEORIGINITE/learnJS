@@ -207,3 +207,25 @@
 // -----------------------------------------------------------------------
 
 // Conditional expressions
+var prompt = require("prompt");
+prompt.start();
+console.log("I will now ask you for your rating.");
+prompt.get(["rating"], function(err, res){
+
+    if(4 < res.rating){
+        console.log(res.rating ,"nice to see that you'are enjoying our application.")
+    }else if( res.rating <= 0){
+     console.log("Sorry for any problem which we have ever put you into .");
+    }
+    else{
+        console.log(res.rating,"thanks for your feedback , we will try to improve")
+    }
+
+
+});
+
+
+
+
+
+
