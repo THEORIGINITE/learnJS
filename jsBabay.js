@@ -279,3 +279,41 @@
 // let finalDate 
 // finalDate = `${day},${DayDate}th ${month}`
 // console.log(finalDate);
+
+// LOOPs
+
+// 1. For LOOP
+
+// for(let i = 0 ; i<= 50 ;i++){
+//     console.log(i);
+// }
+// for(let i = 0 ; i<= 50 ;i++){
+//     console.log(i);// infinite loop
+// }
+
+
+// for in LOOP
+
+// const students ={
+//     1: "essentric",
+//     2: "witchCraft",
+//     3: "Atomic World",
+//    4: "Resident Evil"
+// }
+// for(const key in students){
+//     console.log(students[key].toUpperCase());
+// }
+
+// // Creating a student object
+// const student = {
+//     registration: '12342',
+//     name: 'Sandeep',
+//     age: 27,
+//     marks: 98
+// };
+  
+// // prints all the keys in student object
+// for (const key in student) {
+//     console.log(key);
+// }
+
