@@ -316,10 +316,77 @@
 // for (const key in student) {
 //     console.log(key);
 // }
-
-  
-   
+// let b =[]
+// for(i =2001;i<=2100 ; i++) {
+//     if(i /4 == Math.floor(i/4))  {
+//         console.log(i);
+//         b.push(i)
+//     }
+    
    
     
    
 
+// }
+// console.log( b.filter((i)=>{
+//     b/400  === Math.floor(b/400)
+//  }));
+
+// console.log(b.length);
+
+/// EXERCISE
+// sum the elements of an array
+let arr_1 = [3, 5, 22, 5,  7,  2,  45, 75, 89, 21, 2]; // --> 276
+// let a = 0;
+// for(let i = 0 ; i < arr_1.length ;i++){
+//     a = a + arr_1[i]
+//     console.log(i , arr_1[i]);
+//     console.log(a);
+// }
+let arr_2 = [9, 2, 42, 55, 71, 22, 4,  5,  90, 25, 26]; // --> 351
+// let b;
+// console.log(a);
+
+
+
+// ------------------------------------------------------------------------------------------------
+// Using a for loop print all even numbers up to and including n. Don’t include 0.
+
+// function printallevenuptoN(n){
+//     for(let i = 1; i <= n; i++){
+//     //   console.log(i);
+//     if( i /2 === Math.floor(i/2)){
+//         console.log(i);
+//     }
+//     }
+// }
+// printallevenuptoN(100)
+
+
+// ------------------------------------------------------------------------------------------------
+// Using a for loop output the elements in reverse order
+let arr = [43, "what", 9, true, "cannot", false, "be", 3, true];
+// let arr1 = [1,2,3,4,5,6,7,8,9,10];
+
+
+// function reverseorder(array){
+//     let reversed =[];
+//   for( element of array)
+// {
+//     let length = array.length -1
+//     // console.log(array.length);
+//     // console.log(array.indexOf(element));
+//    reversed[length - array.indexOf(element)]  = element;
+
+// }
+// console.log(reversed);
+// }
+
+// reverseorder(arr1)
+
+
+// ------------------------------------------------------------------------------------------------
+
+// Exercise 4)
+// Given two arrays of integers. Add up each element in the same position and
+// create a new array containing the sum of each pair. Assume both arrays are of the same length.
