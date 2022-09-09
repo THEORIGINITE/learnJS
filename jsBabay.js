@@ -336,14 +336,14 @@
 
 /// EXERCISE
 // sum the elements of an array
-let arr_1 = [3, 5, 22, 5,  7,  2,  45, 75, 89, 21, 2]; // --> 276
+// let arr_1 = [3, 5, 22, 5,  7,  2,  45, 75, 89, 21, 2]; // --> 276
 // let a = 0;
 // for(let i = 0 ; i < arr_1.length ;i++){
 //     a = a + arr_1[i]
 //     console.log(i , arr_1[i]);
 //     console.log(a);
 // }
-let arr_2 = [9, 2, 42, 55, 71, 22, 4,  5,  90, 25, 26]; // --> 351
+// let arr_2 = [9, 2, 42, 55, 71, 22, 4,  5,  90, 25, 26]; // --> 351
 // let b;
 // console.log(a);
 
@@ -390,3 +390,25 @@ let arr = [43, "what", 9, true, "cannot", false, "be", 3, true];
 // Exercise 4)
 // Given two arrays of integers. Add up each element in the same position and
 // create a new array containing the sum of each pair. Assume both arrays are of the same length.
+
+// let arr1 =[1,2,3,4,4,6,7,8,9,10]
+// let arr2 =[12,24,36,48,60,72,84,96,108,120]
+
+// let newArray =[]
+
+// function addByPair(array1,array2){
+//   for(let i = 0 ; i < array1.length ; i++){
+//     newArray.push(array1[i] + array2[i] )
+//     console.log(
+//         newArray
+//     );
+//   }
+// }
+
+// addByPair(arr1,arr2)
+
+// ------------------------------------------------------------------------------------------------
+
+// Exercise 5)
+// Given a string change the every second letter to an uppercase ‘Z’. Assume
+// there are no space.
