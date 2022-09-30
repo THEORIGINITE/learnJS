@@ -412,3 +412,35 @@ let arr = [43, "what", 9, true, "cannot", false, "be", 3, true];
 // Exercise 5)
 // Given a string change the every second letter to an uppercase ‘Z’. Assume
 // there are no space.
+// let b = "caveat"
+// for(let i = 1 ; i< b.length; i++){
+//     if((i+1)%2 ===0 ){
+//         console.log(b[(i+1)-1]); // beacuse the index starts from 0 , if we replace  b[i+1] it bmeans we're replacing the third element (0,1,2--> third) , thats why we have to subtract 1 from  it 
+//   let newSre =  b.replace(b[(i+1) -1], "Z")
+//   b = b.replace(b , newSre)
+//      console.log(b);
+
+// }}
+
+
+// function just like.replace
+
+// function replaceWordwith(stringtobeused ,wordtobereplaced, lettertobereplacedwith){
+//     let a = stringtobeused 
+//     let b = wordtobereplaced
+//     let c  = lettertobereplacedwith
+
+//     for(let i =0; i < stringtobeused.length; i++){
+//       if(a[i] === b){
+//         let new_a = a.replace(a[i],c)
+//         a = new_a
+//       }else{
+//         a = a
+//       }
+//     }
+//     return a
+// }
+
+// let r = replaceWordwith("essentric", "s", "f")
+// console.log(r);
+
